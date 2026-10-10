@@ -1,0 +1,74 @@
+body {
+    margin: $spacing-xs;
+}
+
+header {
+    h1 {
+        text: {
+            align: center;
+        }
+        color: $tex-col-whi;
+        margin: 0 0 $spacing-xs 0;
+        padding: $spacing-xs;
+    }
+}
+
+button {
+    font: {
+        size: $font-size-md;
+    }
+}
+
+#block-btn, #height-btn, #opacity-btn {
+    font: {
+        family: $font-family-ex;
+    }
+}
+
+.block-cnt {
+    ul {
+        li {
+            a:link {
+                font: {
+                    size: $font-size-md;
+                }
+            }
+        }
+    }
+}
+
+.height-cnt {
+    ul {
+        li {
+            a:link {
+                font: {
+                    size: $font-size-md;
+                }
+            }
+        }
+    }
+}
+
+.opacity-cnt {
+    ul {
+        li {
+            a:link {
+                font: {
+                    size: $font-size-md;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    margin: $spacing-sm 0 0 0;
+    p {
+        font: {
+            family: $font-family-ex;
+            size: $font-size-md;
+        }
+        padding: $spacing-sm;
+        color: $tex-col-whi;
+    }
+}

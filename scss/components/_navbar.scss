@@ -1,0 +1,136 @@
+.block-cnt, .height-cnt, .opacity-cnt {
+    width: 100%;
+    height: 300px;
+}
+
+.block-cnt {
+    &:hover .block-links {
+        display: block;
+    }
+    ul {
+        list-style: none;
+        li {
+            #active {
+                background-color: $bg-col-blu-pre;
+                color: $tex-col-whi;
+            }
+            a {
+                display: block;
+                color: $tex-col-blu;
+                text: {
+                    decoration: none;
+                }
+            }
+            a:link {
+                padding: $spacing-sm;
+            }
+            a:visited {
+                background-color: $bg-col-blu-sec;
+                color: $tex-col-whi-ex;
+            }
+            a:hover {
+                background-color: $bg-col-blu-pre;
+                color: $tex-col-whi;
+                transform: translateX(18px);
+                transition: all .2s;
+            }
+            a:active {
+                background-color: $bg-col-blu-tet;
+                color: $tex-col-whi;
+            }
+        }
+    }
+    .block-links {
+        display: none;
+        box-shadow: $box-shadow;
+    }
+}
+
+.height-cnt {
+    &:hover .height-links {
+        height: 212px;
+    }
+    ul {
+        list-style: none;
+        li {
+            #active {
+                background-color: $bg-col-blu-pre;
+                color: $tex-col-whi;
+            }
+            a {
+                display: block;
+                color: $tex-col-blu;
+                text: {
+                    decoration: none;
+                }
+            }
+            a:link {
+                padding: $spacing-sm;
+            }
+            a:visited {
+                background-color: $bg-col-blu-sec;
+                color: $tex-col-whi-ex;
+            }
+            a:hover {
+                background-color: $bg-col-blu-pre;
+                color: $tex-col-whi;
+                transform: translateX(18px);
+                transition: all .2s;
+            }
+            a:active {
+                background-color: $bg-col-blu-tet;
+                color: $tex-col-whi;
+            }
+        }
+    }
+    .height-links {
+        height: 0px;
+        overflow: hidden;
+        transition: height 1s;
+        box-shadow: $box-shadow;
+    }
+}
+
+.opacity-cnt {
+    &:hover .opacity-links {
+        opacity: 1;
+    }
+    ul {
+        list-style: none;
+        li {
+            #active {
+                background-color: $bg-col-blu-pre;
+                color: $tex-col-whi;
+            }
+            a {
+                display: block;
+                color: $tex-col-blu;
+                text: {
+                    decoration: none;
+                }
+            }
+            a:link {
+                padding: $spacing-sm;
+            }
+            a:visited {
+                background-color: $bg-col-blu-sec;
+                color: $tex-col-whi-ex;
+            }
+            a:hover {
+                background-color: $bg-col-blu-pre;
+                color: $tex-col-whi;
+                transform: translateX(18px);
+                transition: all .2s;
+            }
+            a:active {
+                background-color: $bg-col-blu-tet;
+                color: $tex-col-whi;
+            }
+        }
+    }
+    .opacity-links {
+        opacity: 0;
+        transition: opacity 1s;
+        box-shadow: $box-shadow;
+    }
+}
