@@ -1,7 +1,7 @@
 UI Component & Programming Learning Resources
 A learning-focused repository dedicated to sharing code examples, programming concepts, and practical resources to help students and developers improve their programming skills.
 
-About This Repository
+About This Repository:
 This repository is created for educational purposes, with the goal of helping students, beginners, and developers learn programming through practical examples, reusable code, and clear explanations.
 It provides a place to explore different programming languages, understand programming concepts, practice problem-solving, and share knowledge with others.
 
